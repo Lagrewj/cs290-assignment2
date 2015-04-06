@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>CS290 Assignment 2 By: Jonathan Lagrew</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	<table border="1">
+		<caption>Warcraft Character Table</caption>
+		<tbody>
+			<col><col><col><col><col><col>
+			<tr><th><th>Class<th>Race<th>DPS/Healer/Tank<th>Resource<th>Level
+			<tr><th>Corrina<td>Priest<td>Human<td>Healer<td>Mana<td>42
+			<tr><th>Goldmtrx<td>Warrior<td>Dwarf<td>Tank<td>Rage<td>36				
+			<tr><th>Silvermatrix<td>Shaman<td>Draenai<td>Healer<td>Mana<td>100
+			<tr><th>Pawprint<td>Druid<td>Night Elf<td>DPS<td>Mana<td>100
+			<tr><th>Silvermtrx<td>Warlock<td>Gnome<td>DPS<td>Mana<td>90
+			<tfoot><td colspan=2>A footer 2 columns!<td colspan=4>Another footer 4 columns!</tfoot>	
+		</table>
+	<dl>
+		<dt>Favorite Food</dt>
+		<dd>Steak</dd>
+		<dt>Favorite Color</dt>
+		<dd>Jungle Green</dd>
+		<dt>Favorite Ice Cream</dt>
+		<dd>Chocolate</dd>
+	</dl>
+	<p>Will submit via Post:</p>
+	<form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method="post">
+		<label>Name: <input type="text" name="text_input"></label>
+		<label>Number: <input type="number" name="numerical_input"></label>
+		<label>Password: <input type="password" name="password_input"></label><br>
+		<br>Choose a candy:</br>
+		<label><input type="radio" name=candy value="Snickers">Snickers</label><br>
+		<label><input type="radio" name=candy value="Skittles">Skittles</label><br>
+		<label><input type="radio" name=candy value="Mentos">Mentos</label><br>
+		<input type="submit">
+		
+	</form>
+	<br>
+	<p>Will submit via Get:</p>	
+	<form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method="get.html">
+		<label>Name: <input type="text" name="text_input"></label>
+		<label>Number: <input type="number" name="numerical_input"></label>
+		<label>Password: <input type="password" name="password_input"></label><br>
+		<br>Choose a candy:</br>
+		<label><input type="radio" name=candy value="Snickers">Snickers</label><br>
+		<label><input type="radio" name=candy value="Skittles">Skittles</label><br>
+		<label><input type="radio" name=candy value="Mentos">Mentos</label><br>
+		<input type="submit">
+	</form>
+		<div class="outer-content"><div class="inner-content">Content</div></div>
+		<br>
+		<br>
+		<br>
+		<p><img src="100x125px.jpg" >
+			It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way--in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.
+		</p>
+		<p>
+			There were a king with a large jaw and a queen with a plain face, on the throne of England; there were a king with a large jaw and a queen with a fair face, on the throne of France. In both countries it was clearer than crystal to the lords of the State preserves of loaves and fishes, that things in general were settled for ever. It was the year of Our Lord one thousand seven hundred and seventy-five. Spiritual revelations were conceded to England at that favoured period, as at this. Mrs. Southcott had recently attained her five-and-twentieth blessed birthday, of whom a prophetic private in the Life Guards had heralded the sublime appearance by announcing that arrangements were made for the swallowing up of London and Westminster.
+		</p>
+</body>
+</html>
